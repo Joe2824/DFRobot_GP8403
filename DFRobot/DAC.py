@@ -108,8 +108,9 @@ class GP8403():
     # (should be more than 7ms according to spec)
     GP8302_STORE_TIMING_DELAY = 0.0000010
 
-    def __init__(self, addr):
+    def __init__(self, bus=1, addr=0x58):
         """Keyword arguments:
+        bus - bus ID
         addr - I2C Adress
         """
 
@@ -119,7 +120,7 @@ class GP8403():
         self._scl = 3
         self._sda = 2
         self.data_transmission = 0
-        self.i2c = SMBus(1)
+        self.i2c = SMBus(bus)
 
     def begin(self):
         """Initialize the sensor"""

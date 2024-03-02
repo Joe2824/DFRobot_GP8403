@@ -10,7 +10,7 @@ channel - Output channel.
 import time
 from DFRobot.DAC import GP8403
 
-DAC = GP8403(0x58)
+DAC = GP8403(addr=0x58)
 while DAC.begin() != 0:
     print("init error")
     time.sleep(1)
