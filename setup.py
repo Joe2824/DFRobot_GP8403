@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="DFRobot_GP8403",
     keywords = 'Raspberry Pi, Raspi, Python, GPIO, GP8403, DAC',
-    version="0.1.0",
+    version="0.1.1",
     author="Joel Klein",
     description="This package is a fork of the DFRobot GP8403 package, modified for python3 and packaged for pip",
     long_description=long_description,
