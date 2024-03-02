@@ -19,7 +19,7 @@ The Arduino library is provided for the I2C 0-5V/0-10V DAC module to set and sav
 ## Installation
 Install Module with pip<br>
 ```python
-pip install DFRobot_GP8302
+pip install DFRobot-GP8403
 ```
 
 ## Example
