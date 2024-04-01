@@ -3,4 +3,4 @@ This package has been renamed.
 
 Use `pip install GP8XXX-IIC` instead.
 
-New package: [https://pypi.org/project/{{ cookiecutter.new_package_name }}/](https://pypi.org/project/GP8XXX-IIC/)
+New package: [https://pypi.org/project/GP8XXX-IIC/](https://pypi.org/project/GP8XXX-IIC/)
