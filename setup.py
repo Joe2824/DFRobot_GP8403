@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="DFRobot_GP8403",
     keywords = 'Raspberry Pi, Raspi, Python, GPIO, GP8403, DAC',
-    version="0.1.1",
+    version="10",
     author="Joel Klein",
     description="DFRobot_GP8403 is now GP8XXX_IIC",
     long_description=long_description,
